@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+body {
+  background-color: #eceff4;
+}
+
+.wrap {
+  width: 320px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+.form {
+  height: 250px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 3px 7px rgba($color: #000000, $alpha: 0.05);
+  margin-bottom: 26px;
+  input {
+    height: 40px;
+    width: 270px;
+    border-radius: 4px;
+    padding-left: 15px;
+    color: #333333;
+    opacity: 46%;
+    border: 1px solid #eeeeee;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+}
+
+.header {
+  padding: 26px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.inputs {
+  padding: 20px 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  .button {
+    background-color: #4d59a1;
+    color: white;
+    border-radius: 4px;
+    width: 97px;
+    height: 40px;
+    border: none;
+    opacity: 100%;
+    padding: 0;
+    &:hover {
+      background-color: #606dba;
+    }
+  }
+}
+
+.data {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 3px 7px rgba($color: #000000, $alpha: 0.05);
+}
+
+.contact {
+  padding: 20px 26px;
+  border-bottom: 1px solid #eeeeee;
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+}
+
+.phone {
+  color: #666666;
+}
+
+.submit {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 20px;
+
+  p {
+    font-size: 8px;
+    color: green;
+  }
+}
+
+.name {
+  display: flex;
+  align-items: flex-end;
+}
+
+.cross {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 2px;
+}
+
+input.cross {
+  cursor: pointer;
+  &:hover {
+    color: #666666;
+  }
+}

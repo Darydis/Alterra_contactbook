@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+body {
+  background-color: #eceff4;
+}
+
+.wrap {
+  width: 320px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+.form {
+  height: 250px;
+  background-color: white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05);
+  margin-bottom: 26px;
+}
+
+.form input {
+  height: 40px;
+  width: 270px;
+  border-radius: 4px;
+  padding-left: 15px;
+  color: #333333;
+  opacity: 46%;
+  border: 1px solid #eeeeee;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  padding: 26px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.inputs {
+  padding: 20px 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.inputs .button {
+  background-color: #4d59a1;
+  color: white;
+  border-radius: 4px;
+  width: 97px;
+  height: 40px;
+  border: none;
+  opacity: 100%;
+  padding: 0;
+}
+
+.inputs .button:hover {
+  background-color: #606dba;
+}
+
+.data {
+  background-color: white;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05);
+}
+
+.contact {
+  padding: 20px 26px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.contact a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.phone {
+  color: #666666;
+}
+
+.submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 20px;
+}
+
+.submit p {
+  font-size: 8px;
+  color: green;
+}
+
+.name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.cross {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 2px;
+}
+
+input.cross {
+  cursor: pointer;
+}
+
+input.cross:hover {
+  color: #666666;
+}
